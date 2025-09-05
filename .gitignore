@@ -1,0 +1,29 @@
+# Folders to ignore
+config
+crash-reports
+datapacks
+defaultconfigs
+downloads
+dynamic-data-pack-cache
+dynamic-resource-pack-cache
+logs
+moddata
+mods
+patchouli_books
+resourcepacks
+saves
+shaderpacks
+skyblockbuilder
+xaero
+
+# Files to ignore
+.curseclient
+emi.json
+minecraftinstance.json
+options.txt
+patchouli_data.json
+usercache.json
+usernamecache.json
+
+# Config files to include
+!config/apotheosis/apotheosis.cfg
