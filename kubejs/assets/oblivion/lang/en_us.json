@@ -1,0 +1,13 @@
+{
+    "biome.oblivion.the_void_plains_marker": "The Void",
+    "biome.oblivion.the_void_forest_marker": "The Void",
+    "biome.oblivion.the_void_birch_forest_marker": "The Void",
+
+    "effect.oblivion.unknown_illness": "Unknown Illness",
+    "effect.oblivion.unknown_illness.description": "Reduces the amount of healing received by 100%",
+    "effect.oblivion.otherworldly_forces": "Otherworldly Forces",
+    "effect.oblivion.otherworldly_forces.description": "Prevents you from placing blocks.",
+
+    "advancements.oblivion.skyblock.root.title": "Skies of Oblivion",
+    "advancements.oblivion.skyblock.root.desc": "Thank you for playing! Make sure to check the advancements for information on how to progress"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "herios_floral_expansion:textures/screens/advancement_background.png",
+    "icon": {
+      "id": "herios_floral_expansion:floral_expansion_logo"
+    },
+    "title": {
+      "translate": "advancements.herios_floral_expansion.title"
+    },
+    "description": {
+      "translate": "advancements.herios_floral_expansion.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "herios_floral_expansion_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

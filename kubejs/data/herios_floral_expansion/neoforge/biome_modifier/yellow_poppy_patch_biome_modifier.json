@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "sunflower_plains",
+    "flower_forest"
+  ],
+  "features": "herios_floral_expansion:yellow_poppy_patch",
+  "step": "vegetal_decoration"
+}

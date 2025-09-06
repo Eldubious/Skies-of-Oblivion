@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:chest",
+    "random_sequence": "oblivion:starting_chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lava_bucket",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:water_bucket",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

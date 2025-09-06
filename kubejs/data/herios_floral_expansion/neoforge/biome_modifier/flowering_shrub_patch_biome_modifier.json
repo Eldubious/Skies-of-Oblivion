@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "jungle"
+  ],
+  "features": "herios_floral_expansion:flowering_shrub_patch",
+  "step": "vegetal_decoration"
+}
