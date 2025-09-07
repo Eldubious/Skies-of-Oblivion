@@ -1,0 +1,33 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": false,
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.oblivion.main_progression.the_surface.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.main_progression.the_surface.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:mycelium"
+        },
+        "frame": "goal"
+    },
+    "parent": "oblivion:main_progression/the_sky",
+    "criteria": {
+        "enter_surface": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "oblivion:overworld_surface"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_surface"
+        ]
+    ]
+}

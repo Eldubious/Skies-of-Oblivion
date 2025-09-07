@@ -1,0 +1,35 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.oblivion.skyblock.cobblestone.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.skyblock.cobblestone.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:cobblestone"
+        }
+    },
+    "parent": "oblivion:skyblock/root",
+    "criteria": {
+        "cobblestones": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#c:cobblestones"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cobblestones"
+        ]
+    ]
+}

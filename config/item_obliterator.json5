@@ -1,0 +1,129 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "create:cut_granite", "create:cut_granite_slab", "create:cut_granite_stairs", "create:cut_granite_wall",
+    "create:polished_cut_granite", "create:polished_cut_granite_stairs", "create:polished_cut_granite_slab",
+    "create:polished_cut_granite_wall", "create:small_granite_brick_wall",
+    "create:small_granite_brick_slab", "create:small_granite_brick_stairs", "create:small_granite_bricks",
+    "create:cut_granite_brick_wall", "create:cut_granite_brick_slab", "create:cut_granite_brick_stairs",
+    "create:cut_granite_bricks", "create:cut_andesite_bricks", "create:cut_andesite_brick_stairs",
+    "create:cut_andesite_brick_slab", "create:cut_andesite_brick_wall", "create:small_andesite_bricks",
+    "create:small_andesite_brick_stairs", "create:small_andesite_brick_slab", "create:small_andesite_brick_wall",
+    "create:cut_diorite", "create:cut_diorite_stairs", "architects_palette:polished_nebulite_slab",
+    "create:cut_diorite_slab", "create:cut_diorite_wall", "create:polished_cut_diorite",
+    "create:polished_cut_diorite_stairs", "create:polished_cut_diorite_slab", "create:polished_cut_diorite_wall",
+    "create:cut_diorite_bricks", "create:cut_diorite_brick_stairs", "create:cut_diorite_brick_slab",
+    "create:cut_diorite_brick_wall", "create:small_diorite_bricks", "create:small_diorite_brick_stairs",
+    "create:small_diorite_brick_slab", "create:small_diorite_brick_wall", "architects_palette:polished_nebulite",
+    "create:cut_andesite", "create:cut_andesite_stairs", "create:cut_andesite_slab",
+    "create:cut_andesite_wall", "create:polished_cut_andesite", "create:polished_cut_andesite_stairs",
+    "create:polished_cut_andesite_slab", "create:polished_cut_andesite_wall", "create:cut_dripstone_bricks",
+    "create:cut_dripstone_brick_stairs", "create:cut_dripstone_brick_slab", "create:cut_dripstone_brick_wall",
+    "create:small_dripstone_bricks", "create:small_dripstone_brick_stairs", "create:small_dripstone_brick_slab",
+    "create:small_dripstone_brick_wall", "architects_palette:polished_nebulite_stairs",
+    "create:cut_calcite", "create:cut_calcite_stairs", "create:cut_calcite_slab", "create:cut_calcite_wall",
+    "create:polished_cut_calcite", "create:polished_cut_calcite_stairs", "create:polished_cut_calcite_slab",
+    "create:polished_cut_calcite_wall", "create:cut_calcite_bricks", "create:cut_calcite_brick_stairs",
+    "create:cut_calcite_brick_slab", "create:cut_calcite_brick_wall", "create:small_calcite_bricks",
+    "create:small_calcite_brick_stairs", "create:small_calcite_brick_slab", "create:small_calcite_brick_wall",
+    "create:cut_dripstone", "create:cut_dripstone_stairs", "architects_palette:oracle_brick_stairs",
+    "create:cut_dripstone_slab", "create:cut_dripstone_wall", "create:polished_cut_dripstone",
+    "create:polished_cut_dripstone_stairs", "create:polished_cut_dripstone_slab",
+    "create:polished_cut_dripstone_wall", "create:cut_tuff_bricks", "create:cut_tuff_brick_stairs",
+    "create:cut_tuff_brick_slab", "create:cut_tuff_brick_wall", "create:small_tuff_bricks",
+    "create:small_tuff_brick_stairs", "create:small_tuff_brick_slab", "create:small_tuff_brick_wall",
+    "create:cut_deepslate", "create:cut_deepslate_stairs", "architects_palette:oracle_brick_slab",
+    "create:cut_deepslate_slab", "create:cut_deepslate_wall", "create:polished_cut_deepslate",
+    "create:polished_cut_deepslate_stairs", "create:polished_cut_deepslate_slab",
+    "create:polished_cut_deepslate_wall", "create:small_deepslate_brick_wall", "architects_palette:oracle_bricks",
+    "create:small_deepslate_brick_slab", "create:small_deepslate_brick_stairs", "create:small_deepslate_bricks",
+    "create:cut_deepslate_brick_wall", "create:cut_deepslate_brick_slab", "create:cut_deepslate_brick_stairs",
+    "create:cut_deepslate_bricks", "create:cut_tuff", "create:cut_tuff_stairs",
+    "create:cut_tuff_slab", "create:cut_tuff_wall", "create:polished_cut_tuff", "create:polished_cut_tuff_stairs",
+    "create:polished_cut_tuff_slab", "create:polished_cut_tuff_wall", "create:small_ochrum_brick_slab",
+    "create:small_ochrum_brick_wall", "create:cut_scoria_bricks", "create:cut_scoria_brick_stairs",
+    "create:cut_scoria_brick_slab", "create:cut_scoria_brick_wall", "create:small_scoria_bricks",
+    "create:small_scoria_brick_stairs", "create:small_scoria_brick_slab",
+    "create:cut_asurine_bricks", "create:cut_asurine_brick_stairs", "create:cut_asurine_brick_slab",
+    "create:cut_asurine_brick_wall", "create:small_asurine_bricks", "create:small_asurine_brick_stairs",
+    "create:small_asurine_brick_slab", "create:small_asurine_brick_wall",
+    "create:cut_crimsite_bricks", "create:cut_crimsite_brick_stairs", "architects_palette:oracle_brick_wall",
+    "create:cut_crimsite_brick_slab", "create:cut_crimsite_brick_wall", "create:small_crimsite_bricks",
+    "create:small_crimsite_brick_stairs", "create:small_crimsite_brick_slab", "create:small_crimsite_brick_wall",
+    "create:cut_ochrum_bricks", "architects_palette:oracle_tile_slab", "architects_palette:oracle_tile_stairs",
+    "create:cut_ochrum_brick_stairs", "create:cut_ochrum_brick_slab", "create:cut_ochrum_brick_wall",
+    "create:small_ochrum_bricks", "create:small_ochrum_brick_stairs", "create:small_scoria_brick_wall",
+    "create:cut_scorchia_bricks", "create:cut_scorchia_brick_stairs", "create:cut_scorchia_brick_slab",
+    "create:cut_scorchia_brick_wall", "create:small_scorchia_bricks", "create:small_scorchia_brick_stairs",
+    "create:small_scorchia_brick_slab", "create:small_scorchia_brick_wall", "create:cut_veridium_bricks",
+    "create:cut_veridium_brick_stairs", "create:cut_veridium_brick_slab", "create:cut_veridium_brick_wall",
+    "create:small_veridium_bricks", "create:small_veridium_brick_stairs", "create:small_veridium_brick_slab",
+    "create:small_veridium_brick_wall", "supplementaries:lapis_bricks_wall",
+    "herios_floral_expansion:chlorophyll_tiles", "herios_floral_expansion:chlorophyll_tile_stairs",
+    "herios_floral_expansion:chlorophyll_tile_slab", "herios_floral_expansion:chlorophyll_tile_wall",
+    "herios_floral_expansion:polished_chlorophyll_tiles", "herios_floral_expansion:polished_chlorophyll_tile_stairs",
+    "herios_floral_expansion:polished_chlorophyll_tile_slab", "herios_floral_expansion:polished_chlorophyll_tile_wall",
+    "architects_palette:dark_oracle_bricks", "architects_palette:dark_oracle_brick_slab",
+    "architects_palette:dark_oracle_brick_stairs", "architects_palette:dark_oracle_brick_wall",
+    "architects_palette:oracle_tiles", "architects_palette:oracle_tile_wall", "architects_palette:abyssaline",
+    "architects_palette:abyssaline_bricks", "architects_palette:abyssaline_brick_slab",
+    "architects_palette:abyssaline_tiles", "architects_palette:abyssaline_tile_slab",
+    "architects_palette:chiseled_abyssaline_bricks", "architects_palette:abyssaline_pillar",
+    "architects_palette:abyssaline_lamp", "architects_palette:abyssaline_plating", "supplementaries:lapis_bricks",
+    "supplementaries:lapis_bricks_stairs", "supplementaries:lapis_bricks_slab", "create:cut_limestone_bricks",
+    "create:cut_limestone_brick_stairs", "create:cut_limestone_brick_slab", "create:cut_limestone_brick_wall",
+    "create:small_limestone_bricks", "create:small_limestone_brick_stairs", "create:small_limestone_brick_slab",
+    "create:small_limestone_brick_wall", "plushie_buddies:plushie_dark_father", "plushie_buddies:plushie_emperor",
+    "plushie_buddies:plushie_yoga", "plushie_buddies:plushie_chewie", "plushie_buddies:plushie_dan_rolo",
+    "plushie_buddies:plushie_storm_soldier", "productivemetalworks:fire_brick", "productivemetalworks:fire_clay"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": true
+}

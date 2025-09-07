@@ -1,4 +1,6 @@
 # Folders to ignore
+.mixin.out
+.vscode
 config/*
 !config/
 config/apotheosis/*
@@ -50,6 +52,7 @@ usernamecache.json
 
 # Config files to include
 !config/fml.toml
+!config/emi.css
 !config/biomespawnpoint/
 !config/starterstructure/
 !config/forgivingworld.json
@@ -57,4 +60,6 @@ usernamecache.json
 !config/gag.cfg
 !config/irons_rpg_tweaks-server.toml
 !config/mobplaques-client.toml
+!config/item_obliterator.json5
+!config/travelerstitles-neoforge-1_21.toml
 

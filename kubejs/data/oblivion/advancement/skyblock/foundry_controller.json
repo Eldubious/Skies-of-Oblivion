@@ -1,0 +1,35 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.oblivion.skyblock.foundry_controller.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.skyblock.foundry_controller.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "productivemetalworks:black_foundry_controller"
+        }
+    },
+    "parent": "oblivion:skyblock/clay_blend",
+    "criteria": {
+        "foundry_controller": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#productivemetalworks:foundry_controllers"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "foundry_controller"
+        ]
+    ]
+}

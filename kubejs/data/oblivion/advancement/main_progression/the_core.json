@@ -1,0 +1,33 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": false,
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.oblivion.main_progression.the_core.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.main_progression.the_core.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "oritech:black_hole_block"
+        },
+        "frame": "goal"
+    },
+    "parent": "oblivion:main_progression/the_end",
+    "criteria": {
+        "enter_core": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:the_end",
+                "to": "datanessence:sanctuary"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_core"
+        ]
+    ]
+}

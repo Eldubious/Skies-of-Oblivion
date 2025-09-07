@@ -24,9 +24,7 @@
         [],
         [],
         [],
-        [
-            "minecraft:void_start_platform"
-        ]
+        []
     ],
     "has_precipitation": false,
     "spawn_costs": {},

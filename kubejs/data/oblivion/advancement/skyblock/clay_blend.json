@@ -1,0 +1,35 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.oblivion.skyblock.clay_blend.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.skyblock.clay_blend.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "oblivion:black_fire_clay_blend"
+        }
+    },
+    "parent": "oblivion:skyblock/root",
+    "criteria": {
+        "fire_clay_blend": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#oblivion:fire_clay_blends"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fire_clay_blend"
+        ]
+    ]
+}

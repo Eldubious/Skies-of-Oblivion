@@ -1,0 +1,29 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": false,
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.oblivion.main_progression.the_sky.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.main_progression.the_sky.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:grass_block"
+        },
+        "frame": "goal",
+        "background": "apotheosis:textures/advancements/bg/apoth.png"
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "spawn"
+        ]
+    ]
+}

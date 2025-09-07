@@ -1,0 +1,38 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.oblivion.skyblock.zinc.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.skyblock.zinc.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "create:zinc_nugget"
+        }
+    },
+    "parent": "oblivion:skyblock/gravel",
+    "criteria": {
+        "obtain_zinc": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "#c:ingots/zinc",
+                            "#c:nuggets/zinc"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_zinc"
+        ]
+    ]
+}

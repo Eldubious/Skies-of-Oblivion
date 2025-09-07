@@ -1,0 +1,33 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": false,
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.oblivion.main_progression.the_end.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.main_progression.the_end.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "enderscape:corrupt_overgrowth"
+        },
+        "frame": "goal"
+    },
+    "parent": "oblivion:main_progression/the_starlight",
+    "criteria": {
+        "enter_the_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "eternal_starlight:starlight",
+                "to": "minecraft:the_end"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_the_end"
+        ]
+    ]
+}

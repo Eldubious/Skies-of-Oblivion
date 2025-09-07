@@ -1,0 +1,32 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.oblivion.skyblock.into_the_void.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.skyblock.into_the_void.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:feather"
+        }
+    },
+    "parent": "oblivion:skyblock/root",
+    "criteria": {
+        "jump_into_the_void": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "oblivion:overworld_surface"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "jump_into_the_void"
+        ]
+    ]
+}

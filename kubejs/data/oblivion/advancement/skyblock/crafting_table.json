@@ -1,0 +1,37 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.oblivion.skyblock.crafting_table.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.skyblock.crafting_table.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:crafting_table"
+        } 
+    },
+    "parent": "oblivion:skyblock/root",
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:crafting_table"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafting_table"
+        ]
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "title": {
+            "translate": "advancements.oblivion.skyblock.hearthstone.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.skyblock.hearthstone.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "gag:hearthstone"
+        }
+    },
+    "parent": "oblivion:skyblock/andesite_alloy",
+    "criteria": {
+        "hearthstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "gag:hearthstone"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hearthstone"
+        ]
+    ]
+}

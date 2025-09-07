@@ -1,0 +1,33 @@
+{
+    "display": {
+        "hidden": false,
+        "announce_to_chat": false,
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.oblivion.main_progression.the_starlight.title"
+        },
+        "description": {
+            "translate": "advancements.oblivion.main_progression.the_starlight.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "eternal_starlight:nightfall_grass_block"
+        },
+        "frame": "goal"
+    },
+    "parent": "oblivion:main_progression/the_nether",
+    "criteria": {
+        "enter_starlight": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:the_nether",
+                "to": "eternal_starlight:starlight"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_starlight"
+        ]
+    ]
+}
